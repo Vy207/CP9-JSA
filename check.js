@@ -15,6 +15,6 @@ if (userInput === "C"){
     let menu = JSON.parse(localStorage.getItem("menu")) || ["rau xào”, “thịt luộc”, “gà rán"]
     localStorage.setItem("latesmenu",menu.join(""));
 } else if (userInput === "D"){
-    alert("Mời người dùng nhập vào tên món muốn update");
+    alert("Mời người dùng nhập vào tên món muốn update, oke");
     
 }
